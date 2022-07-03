@@ -1,3 +1,6 @@
+:root{
+  --textSize: 16px;
+}
 * {
   box-sizing: border-box;
 }
@@ -31,4 +34,7 @@ button {
 }
 .item__lessonthree {
   width: 200px;
+}
+.text__size{
+font-size: var(--textsize);
 }
