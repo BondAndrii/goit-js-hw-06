@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.list__lessonthree{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 666px;
+}
+.item__lessonthree {
+  width: 200px;
+}
