@@ -29,7 +29,12 @@ console.log(galleryRef);
 //   return itemEl;
 // })
 // console.log(arrImg);
-const listImage = images.map((image) => `<li> <img class="item__lessonthree" src=${image.url} alt=${image.alt}> </li>`).join("");
+const listImage = images.map(({ url, alt }) => `<li> <img class="item__lessonthree" src=${url} alt=${alt}> </li>`).join("");
 console.log(listImage);
 galleryRef.insertAdjacentHTML("beforeend", listImage);
 galleryRef.classList.add('list__lessonthree');
+// const imgRef = document.querySelector('img');
+// console.log(imgRef);
+// console.log(imgRef.hasAttribute('src'));  
+// console.log(imgRef.getAttribute('src'));
+// console.log(imgRef.attributes);

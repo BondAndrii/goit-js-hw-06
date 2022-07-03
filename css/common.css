@@ -26,7 +26,8 @@ button {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  max-width: 666px;
+  max-width: 690px;
+  gap: 15px;
 }
 .item__lessonthree {
   width: 200px;
